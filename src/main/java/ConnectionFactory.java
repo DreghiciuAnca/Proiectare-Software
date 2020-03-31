@@ -10,7 +10,7 @@ import java.util.logging.*;
 public class ConnectionFactory {
     private static final Logger LOGGER = Logger.getLogger(ConnectionFactory.class.getName());
     private static final String DRIVER = "com.mysql.cj.jdbc.Driver";
-    private static final String DBURL = "jdbc:mysql://127.0.0.1:3306/temaPS2";
+    private static final String DBURL = "jdbc:mysql://127.0.0.1/temaPS2";
     private static final String USER = "root";
     private static final String PASS = "";
 
