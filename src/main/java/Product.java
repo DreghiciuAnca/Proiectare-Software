@@ -30,7 +30,7 @@ public class Product {
 
     public Product select(int id){
         Connection con = ConnectionFactory.getConnection();
-        String stringSel = "SELECT * FROM product WHERE produsId = ?";
+        String stringSel = "SELECT * FROM Product WHERE produsId = ?";
 
         ResultSet rs = null;
         PreparedStatement findStatement = null;
@@ -83,7 +83,7 @@ public class Product {
 
     public void delete(){
         Connection con = ConnectionFactory.getConnection();
-        String stringDel = "DELETE FROM product WHERE produsId = ?";
+        String stringDel = "DELETE FROM Product WHERE produsId = ?";
 
         PreparedStatement deleteStmt = null;
         try{
@@ -104,7 +104,7 @@ public class Product {
 
     public void update(Product newProduct){
         Connection con = ConnectionFactory.getConnection();
-        String stringUpd = "UPDATE product SET name = ? WHERE id = ?";
+        String stringUpd = "UPDATE Product SET name = ? WHERE id = ?";
 
         PreparedStatement updateStmt = null;
         try{
