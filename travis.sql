@@ -14,7 +14,7 @@ CREATE TABLE `Product` (
 	`name` VARCHAR(255) NOT NULL,
 	PRIMARY KEY (`produsId`)
 );
-drop table `Bug`;
+
 CREATE TABLE `Bug` (
 	`BugId` INT NOT NULL,
 	`name` VARCHAR(255) NOT NULL,
