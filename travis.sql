@@ -49,7 +49,8 @@ INSERT INTO `Employee` VALUES (1,'first','first@email.com','pass1'),(2,'second',
  
 INSERT INTO `Product` VALUES (1,'product1'),(2,'product2');
 
+INSERT INTO `BugThread` VALUES (1,'comment1',1),(2,'comment2',2);
+
 INSERT INTO `Bug` VALUES (1,'bug1','dsadf','almost done', 'status', NULL, 1, 5, 1, 1,1),(2,'bug2','fjkss','ready', 'status', NULL, 2, 3, 2, 2,1);
 
-INSERT INTO `BugThread` VALUES (1,'comment1',1),(2,'comment2',2);
 
